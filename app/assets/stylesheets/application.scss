@@ -1,0 +1,19 @@
+
+@import "materialize/components/color";
+$primary-color: color('blue', 'lighten-2') !default;
+$secondary-color: color('yellow', 'base') !default;
+@import 'materialize';
+@import "materialize/extras/nouislider";
+@import "https://fonts.googleapis.com/icon?family=material+Icons";
+@import './*';
+
+
+body{
+  display: flex;
+  min-width: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
